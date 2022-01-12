@@ -12,6 +12,10 @@ program
 
 //options
 
-program.option("-d");
+program.option(
+  "-d, --odata",
+  "postman",
+  "https://services.odata.org/V2/OData/OData.svc/"
+);
 
 program.parse(process.argv);
