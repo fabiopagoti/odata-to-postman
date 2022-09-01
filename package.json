@@ -1,0 +1,22 @@
+{
+  "name": "odata-to-postman",
+  "version": "1.0.0",
+  "description": "Converts an OData service to the Postman Collection (v2) format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiopagoti/odata-to-postman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiopagoti/odata-to-postman/issues"
+  },
+  "homepage": "https://github.com/fabiopagoti/odata-to-postman#readme",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
+}
